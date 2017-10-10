@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+    @font-face {
+        font-family: 'novecentodemibold';
+        src: url('fonts/novecentosanswide-demiBold-webfont.woff2') format('woff2'),
+             url('fonts/novecentosanswide-demiBold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;}
+
+    @font-face {
+        font-family: 'latoitalic';
+        src: url('lato-italic-webfont.woff2') format('woff2'),
+             url('lato-italic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;}
+
+body{
+    margin: 0;}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'novecentodemibold';
+    color: #4A305A;
+    margin: 130px 0;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'novecentodemibold';
+    color: #96293E;
+    margin-top: 70px;
+}
+
+.banner-principal {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0px;}
+
+.background-position{
+    background-repeat: no-repeat;
+    background-position: -12px -5px;}
+
+.background-image-pais {background-image: url(images/imagem-1.jpg);}
+.background-image-pais h2{color: #E78024!important;}
+.background-image-pais a{color:#E78024!important;}
+.background-image-pais hr{background-color: #E78024!important;}
+
+.background-image-estado{background-image: url(images/imagem-2.jpg);}
+.background-image-estado h2{color:#0075A0!important;}
+.background-image-estado a{color:#0075A0!important;}
+.background-image-estado hr{background-color: #0075A0!important;}
+
+.background-image-mundo{background-image: url(images/imagem-3.jpg);}
+.background-image-mundo h2{color: #BC1F52!important;}
+.background-image-mundo a{color:#BC1F52!important;}
+.background-image-mundo hr{background-color: #BC1F52!important;}
+
+
+.conteudo h2{
+    font-size: 40px;
+    font-family: 'novecentodemibold'}
+  hr{
+    background-color: #E78024; height: 4px; border: 0; width: 50px;
+    margin: 50px 0 50px 0;}
+
+.conteudo p a:hover{
+    color: #808285!important;
+    font-family: 'latoregular'}
+.conteudo a{font-family: 'latoregular'}
+
+.conteudo{
+    font-size: 18px;
+    width: 100%;
+    margin: 20% 0 0 0;
+    text-align: left;
+    display: block;
+    font-family: 'latoregular', 'sans-serif';
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;}
+    overflow: hidden;
+
+
+.margin{margin: 0 0%;}
+
+h2, p, hr{margin-left: 100px}
+
+h6{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 100px;
+    font-family: 'novecentodemibold';
+    color: #96293E;}
+
+
+input, textarea {
+    font-size: 13px;
+    width: 50%;
+    margin: 5px 0;
+    padding: 8px 20px;
+    resize: none;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin-left: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;}
+
+input {
+    height: 29px;}
+
+button {
+    font-size: 16px;
+    padding: 8px 25px;
+    color: white;
+    border: 10px;
+    border-radius: 5px;}
+
+footer {font-size: 10px;
+    text-align: center;}
+
+
+.margin2 {
+  margin: 0 5%;}
+
+.modal {
+  text-align: left;
+  font-size: 15px;
+  position: fixed;
+  top: 100px;
+  left: 25%;
+  display: none;
+  width: 30%;
+  padding: 2%;
+  border: 2px solid #E78024;
+  border-radius: 30px;
+  background-color: white;
+  font-family: 'latoregular'}
+
+.modal button {
+  background-color: #E78024;}
